@@ -10,10 +10,7 @@ const Blog = () => {
         <div className="blog1">
           <h1>Curious about me?</h1>
           <p>
-          Well hello! I am Bezawit which you already know if you make it this far 😌. So to say a little about my professional
-            journey, I joined campus at 2019 and later majored in Electrical and Computer Engineering. so here is how i shifted to
-            Computer Programming. it was time to choose stream and I made some research by asking seniors what's the latest Job market
-            about and they told me programming is a huge deal, ... <a href="./blogpost1"> Read more.</a>
+          Well hello! I am Bezawit ... <a href="./blogpost1"> Read more.</a>
           </p>
         </div>
         <div className="blog2">
