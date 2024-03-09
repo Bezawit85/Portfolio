@@ -1,7 +1,6 @@
 import React from 'react'
 import './about.css';
 import Navbar from './Navbar';
-import me from '../assets/me.jpg';
 
 const About = () => {
   return (
@@ -19,7 +18,7 @@ const About = () => {
         </div>
         <br />
       <div className='section'>
-         <div className='profile'> <img className='img' src={me} alt='Profile' /> </div>
+         <div className='profile'>  </div>
          <div>
           <p className='skills'>Skills</p>
           <ul className='skill'>
