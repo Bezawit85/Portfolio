@@ -1,0 +1,72 @@
+.about {
+  height: 650px;
+  background-color: #3a4656;
+  color: white;
+  padding-top: 70px;
+  margin: 0;
+  position: relative;
+}
+
+.section1 {
+  padding-left: 20px;
+}
+
+.abouth1 {
+  position: relative;
+  display: inline-block;
+}
+
+.abouth1::after {
+  content: "";
+  position: absolute;
+  left: 15px;
+  bottom: -5px;
+  width: 50%;
+  height: 3px;
+  background-color: #ff9d0bbb;
+  transform-origin: bottom left;
+  transform: scaleX(0);
+  animation: underlineAnimation 1.5s infinite alternate;
+}
+@keyframes underlineAnimation {
+  0% {
+    transform-origin: bottom left;
+    transform: scaleX(0);
+  }
+  100% {
+    transform-origin: bottom right;
+    transform: scaleX(1);
+  }
+}
+.section {
+  display: flex;
+  gap: 350px;
+}
+
+.profile {
+  margin-right: 20px;
+}
+
+.img {
+  width: 300px;
+  height: 100%;
+  background-size: cover;
+  border-radius: 20%;
+  margin-left: 20px;
+}
+
+.skills {
+  font-size: 30px;
+  margin-left: 20px; 
+  justify-content: center; 
+  align-items: center;
+}
+.skill {
+  font-size: 20px;
+  display: flex;
+    gap: 50px;
+}
+
+.text {
+  font-size: 20px;
+}

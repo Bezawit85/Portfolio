@@ -1,0 +1,22 @@
+.blogger {
+    margin: 20px; 
+    background-color: #3a4656;
+    color: rgb(255, 255, 255);
+    padding: 20px; 
+    height: 650px;
+  }
+  .back {
+    padding: 10px;
+    background-color: rgb(58,70,86);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    border-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center; /* Align items vertically */
+    gap: 4px;
+  }
+  
+  .back:hover {
+    background-color: #3e4c5f;
+  }
+  

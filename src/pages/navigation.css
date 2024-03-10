@@ -1,0 +1,40 @@
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px; 
+    background-color: rgb(46, 59, 77);
+    color: white;
+    align-items: center;
+    z-index: 1000; 
+}
+.navigation.transparent {
+    background-color: rgba(46, 59, 77, 0.5);
+  }
+.logo {
+    margin-left: 20px;
+}
+.navlist {
+    margin-right: 20px;
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+.lists {
+    font-size: 18px;
+    font-weight: 500px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+.navitem {
+    border-bottom: 3px solid transparent;
+    padding-bottom: 5px;
+}
+
+.navitem:hover {
+    border-bottom-color: rgba(248, 147, 32, 0.87);
+}
